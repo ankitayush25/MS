@@ -1,6 +1,4 @@
-# Microsoft Office Support Guide
-
----
+office ---
 
 ## Redemption & Activation
 

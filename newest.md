@@ -1,4 +1,3 @@
-# Microsoft Office & Windows Support Checklist
 
 ## ✅ Checklist for Installation Errors
 
@@ -218,3 +217,163 @@
 ---
 
 *(continued in the markdown file...)*  
+
+---
+
+## 🔑 Product Keys & Redemption
+
+### POSA Key (Point of Sale Activation)
+- 25-character alphanumeric (5x5)
+- PIN behind the POSA card
+- Used for **Redemption** only, not activation
+- Redeem at: [office.com/setup](https://office.com/setup) or [microsoft.com/redeem](https://microsoft.com/redeem)
+
+> Once redeemed, linked permanently to one MSA (Microsoft Account)
+
+### Product Key (PK)
+- Used for **Activation**
+- Identifies license type, version, activation count
+- Not used for redemption
+
+### Supported Products for Redemption:
+- Microsoft 365 Family, Personal
+- Office 2019 H&S, Office 2019 H&B
+
+### Tools:
+- **KIT Tool** – Key Information Tool (check key status)
+
+---
+
+## 📋 DIA Checklist (Download, Install, Activate)
+
+### Redemption
+- Sign in to MSA
+- Mode/place of purchase
+- Product name
+- Status of POSA Key:
+  - Created – Invalid (retailer issue)
+  - Active – Redeemable
+  - Consumed – Already used under another MSA
+
+### Download
+- From genuine source or Store app
+- OS version compatibility
+- Disc space
+- Internet connection
+- Antivirus & Firewall
+- Browser compatibility
+- Windows 10 S – App permissions
+
+### Installation
+- First-time or reinstallation?
+- Subscription or perpetual
+- Same device?
+- OS Compatibility:
+  - Office 2010–2019: Win 7 SP1 and up
+  - Mac: varies per version
+- Office versions check (via `appwiz.cpl`)
+- Trial version removal
+- Admin user account
+- Domain restrictions
+- Windows Installer service – Running
+- Windows Updates – Paused
+
+### Activation
+- Validate product: Subscription/Perpetual
+- Use correct MSA
+- OS activated
+- Check for trials or multiple versions
+- Disable antivirus & firewall
+- Date & time settings
+
+---
+
+## 💻 Mac Troubleshooting (Office)
+
+### Common Errors & Fixes
+
+#### Error Code: `0x8A010101`
+- Check MSA
+- Ensure not trying to activate Office 2011
+- Uninstall Office 2011
+- Reinstall & sign in
+
+#### Error Code: `0xD0001043`
+- Server issue – Restart Mac & retry
+- Use License Removal Tool
+- Reinstall Office
+
+#### Error Code: `0xD000001c`
+- Invalid characters in Mac name  
+  Fix via:
+  ```
+  Apple > System Preferences > Sharing > Change computer name
+  ```
+
+#### Activation Prompt After Activation
+- Reset credentials:
+  - Keychain > Delete Office identities cache
+  - Run License Removal Tool
+  - Restart Mac
+
+---
+
+## 📦 Install Office on Mac
+
+1. Finder > Downloads > Open `Microsoft_Office_installer.pkg`
+2. Follow the prompts: Continue > Agree > Install
+3. Use admin password if prompted
+4. Customize apps if needed
+
+> If installer won't open: move to Desktop, hold `Control + Click`, and choose Open
+
+---
+
+## 🌐 Useful Links
+
+- [Activate Office for Mac](https://support.microsoft.com/en-us/office/activate-office-for-mac-7f6646b1-bb14-422a-9ad4-a53410fcefb2)
+- [Troubleshoot Mac Install Issues](https://support.microsoft.com/en-us/office/what-to-try-if-you-can-t-install-or-activate-office-for-mac-5efba2b4-b1e6-4e5f-bf3c-6ab945d03dea)
+
+---
+
+## 📖 Common Interview Questions & Scenarios
+
+1. **Activation after motherboard replacement** – Ask about license type (Retail or OEM), check digital entitlement
+2. **BSOD after update** – Troubleshoot with Safe Mode, In-place upgrade
+3. **No drives during installation** – Load storage drivers or diskpart clean
+4. **MS Store/Apps not launching** – Reset MS Store, SFC/DISM
+5. **Windows Update Services** – Windows Installer, Cryptography, BITS, Windows Update, Windows Time
+6. **Update to latest Windows** – Check compatibility, free space, TPM, and Secure Boot
+7. **No sound after update** – Check device manager > Roll back audio driver
+8. **Clean installation from bootable** – Boot from USB > Custom Install
+9. **Win 11 Minimum Requirements** – TPM 2.0, Secure Boot, 4GB RAM, 64GB Storage, 1GHz CPU
+10. **Clean boot steps** – `msconfig` > Disable all startup services except Microsoft
+11. **Uninstall & reinstall Office via CMD** – Use `cscript` for activation removal
+12. **SLUI 4 usage** – For phone activation
+13. **Location of old files after custom install** – `Windows.old`
+14. **Open user page / program features** – `netplwiz`, `appwiz.cpl`
+15. **Latest Windows version** – Check via `winver`
+16. **Reinstall after In-Place** – Keeps apps and files
+17. **In-place upgrade architecture limitation** – Can't switch from 32-bit to 64-bit
+18. **Create new local account** – `netplwiz`
+19. **Network reset command path** – `Settings > Network & Internet > Advanced settings > Reset`
+20. **Enable hidden admin** – `net user administrator /active:yes`
+
+---
+
+## ✅ Summary: Key Commands
+
+| Purpose               | Command                  |
+|------------------------|--------------------------|
+| Enable Admin           | `net user administrator /active:yes` |
+| Reset Store            | `wsreset.exe`            |
+| SFC Scan               | `sfc /scannow`           |
+| System Info            | `msinfo32`               |
+| DirectX Version        | `dxdiag`                 |
+| View Windows Version   | `winver`                 |
+| Uninstall Program      | `appwiz.cpl`             |
+| Create User Account    | `netplwiz`               |
+| Clean Boot             | `msconfig`               |
+| Open Services          | `services.msc`           |
+
+---

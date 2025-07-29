@@ -1,0 +1,1287 @@
+Check list for installation errors
+
+> OS compatibility
+
+> Internet connection - wifi/LAN - disconnect other devices
+
+> Trial version/another license - remove & manual removal or fix it tool
+
+> Hard disk capacity - storage
+
+> setup file can be corrupted - redownload setup file or download offline installer
+
+> Antivirus - disable from system tray or Windows firewall - Service.msc
+
+> Windows updates running in the background - pause - Service.msc
+
+> Hidden Admin account - cmd as admin :  net user administrator /active:yes
+
+> Clean boot / safe mode
+
+> Task manager & Windows Services
+
+> Disable Proxy settings
+
+> User account - Admin
+
+> Downloadd Offline installer
+
+ 
+
+ 
+
+ 
+
+                Installation is stuck at 0%
+
+> Redownload setup file or download offline installer
+
+> Task manager - Detail tab (3 office, 2 setup) set high priority
+
+> Check for Windows updates
+
+> service.msc
+
+  Cryptographic service - stop
+
+  Print spooler service - stop
+
+  Microsoft office Click to run service - Recovery tab - Change the priority - Run a program
+
+  windows Installer - start ( Running ) - restart
+
+  Windows Updates & firewall - stop/pause
+
+> Stop installation - task manager - Detail tab (3 office, 2 setup) - End process tree
+
+ 
+
+ 
+
+ 
+
+                Installation is stuck at 90%
+
+> Task manager - Detail tab (3 office, 2 setup) set high priority
+
+> Try open office application through run command - restart the computer if applications are opening
+
+ 
+
+ 
+
+                Installation is stuck at 58%
+
+> Task manager - Detail tab (3 office, 2 setup) set high priority
+
+> Check for Windows updates
+
+> service.msc
+
+  Cryptographic service - stop
+
+  Print spooler service - stop
+
+  Open Click to run service - Recovery tab - Change the priority - Run a program
+
+  windows Installer - start
+
+  Windows Updates & firewall - stop/pause
+
+> Manually remove office and re-install
+
+ 
+
+**********************************************************************************
+
+Check list for Activation errors
+
+ 
+
+> Check if cx, is using the right MSA
+
+> check for Multiple versions - cscript
+
+> Validate the Key - perpetual license / Subscription status - O365
+
+> OS compatibility / OS - Activated
+
+> Browser compatibility
+
+> Trun off - Antivirus or firewall
+
+> Check Proxy
+
+> Update Office software
+
+> Hidden Admin account - cmd as admin :  net user administrator /active:yes
+
+> Network reset commands
+
+> change the DNS
+
+8.8.8.8
+
+8.8.4.4
+
+ 
+
+or
+
+ 
+
+4.2.2.2
+
+4.2.2.1
+
+ 
+
+ 
+
+MAC
+
+> Office license removal tool
+
+> Check for updates
+
+> change the DNS
+
+> Check date&time / language
+
+> Check for computer/ useraccount name / hardrive name
+
+> Remove & reinstall
+
+> Creating new user account
+
+**********************************************************************************************************************************
+
+Subject: Office and windows notes
+
+ 
+
+1. Customer Recovery
+
+ 
+
+1st we will listen to the customer
+
+Why customer is unhappy
+
+Then then we will assure
+
+then resolution if possible if not education on why we cannot help resolve.
+
+ 
+
+ 
+
+AFO – (Activation for office) – Preinstalled in Office
+
+DFO-- (Download for office)
+
+It is nothing but preinstalled/ bundled product that binded with the machine. If customer is facing issue with activation/ download we can collect serial number, Proof of purchase, invoice and check it in the tool. *(AFO TOOL)
+
+
+Phone activation-
+
+ 
+
+Two way of phone activation 1-for office, 2- for Windows
+
+For office - use PACSR tool in RAVE(not available in DFM) another tool is there
+
+For windows - SLUI 4 windows + r > SLUI 4 > blue popup window will appear > enter country / region > ask for installation id (48 digit)> give confirmation id
+
+appwiz.cpl - uninstall (control Pannel > all apps list)
+
+msconfig - Clean Boot
+
+enentvwr - Event Viewer
+
+services.msc - Services
+
+netplwiz - New User
+
+tpm.msc - TPM
+
+devmgmt.msc - Device Management
+
+discmgmt.msc - Disk Management
+
+Windows + I - Settings
+
+winver - windows version
+
+msinfo32 - System Information
+
+DXDIAG - DirectX Version
+
+rstrui - System Restore
+
+ 
+
+WAYS TO INSTALL WINDOWS 11 FROM 10.
+
+ 
+
+--Go to window update in settings and check for updates
+
+-- Custom Installation ---- ISO >Mount > source Folder > Setup.exe |||| Create a bootable drive > start the pc > in installation section click on custom installation.
+
+-- Clean Installation (Only works with bootable drive) Create a bootable drive > change the boot priority to USB in BIOS settings.
+
+ 
+
+To create a bootable drive Download MCT (Media creation tool)
+
+ 
+
+TPM - Trusted Platform Module is a hardware feature that is there in the Motherboard. Which is not required to run windows 10 but it is most important for Windows 11 to run.
+
+ 
+
+Tpm - SEcure Boot
+
+- bit-locker ---Device encryption*(HOme)
+
+--- Drive Encryption *(Pro)
+
+ 
+
+windows. Old -> After upgrading from lower version to higher version Windows creates this file, incase user wants to go back to previous version within 10 days then they can go back without losing any data.
+
+ 
+
+We can extend the time period to 50-60 days for one time.
+
+ 
+
+ 
+
+Uninstall Update -
+
+Settings > Windows update > Update History > Uninstall Updates > click on the update that needs to be uninstalled
+
+ 
+
+SERVICES REQUIRED WINDOWS UPDATE TO WORK PROPERLY
+
+---Windows Installer
+
+---Cryptography
+
+---B.I.T.S - Background Intelligent Transfer Service.
+
+---Windows Update Service
+
+---- Windows time
+
+ 
+
+for WINDOWS ACTIVATION --------- Software Protection
+
+ 
+
+ 
+
+HOW TO UNINSTALL MS PROGRAMS in Windows
+
+-> appwiz.cpl
+
+-> Settings > Apps > Uninstall
+
+-> Fixit Tool
+
+-> SARA Tool - Support and Recovery Assistant tool
+
+-> Manual Rip --- Go to directory and delete either partial application or full application. to the registry -- REGEDIT
+
+ 
+
+In mac
+
+ 
+
+finder > Application > right click on the application > Move to trash
+
+ 
+
+Manual Rip,
+
+License removal tool (if the cx has multiple applications installed in the system )
+
+ 
+
+End Process tree
+
+Task manager > details > Right click on application to close > End process tree (Every branch of the application will be closed.)
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+MAC USER ACCOUNT CREATION:---
+
+System Preferences > Users / Groups > Enter UserName & Password > click on + sign > enter credentials > Create User in Admin Mode.
+
+ 
+
+ 
+
+Windows USER ACCOUNT CREATION:-
+
+NETPLWIZ > ADD > Sign in without Microsoft account > enter credentials > create the account in admin mode.
+
+ 
+
+Scratch Key Card: (when the POSA Key gets damaged while scratching)
+
+-- ask for the picture of POP with case number written on it with pen
+
+-- ask for the picture of Scratch key card with case number written on it.
+
+-------------------------------------------------------------------------------------------------------------------
+
+Geo Block--- Buy the product in different region and activate it in different region.
+
+ 
+
+ 
+
+MIcrosoft 365 Basic: MAC SUPPORTED OS - BIGSUR, VENTURA, MONTERY
+
+ 
+
+100Gb of cloud storage
+
+secure Ad-free outlook
+
+tech support
+
+web/ mobile versions of office
+
+ 
+
+Microsoft 365 Personal :
+
+ 
+
+1tb of cloud storage
+
+Auto updates
+
+all platform access
+
+(same time can be used in 5 devices)
+
+Free tech support
+
+60 min of skype international calling
+
+family safety.
+
+ 
+
+Microsoft 365 Family:
+
+ 
+
+1 month free trial (Not for Indian Customers)
+
+Share subscription up to 5 persons.
+
+1tb of cloud storage for each user.
+
+Auto Updates
+
+All platform access.
+
+Each person can use the account in 5 different devices at the same time.
+
+Free TEch Support
+
+60 skype every month international call
+
+Family safety
+
+ 
+
+ 
+
+Various Editions and versions in scope of support
+
+ 
+
+Difference between Subscription and perpetual products.
+
+ 
+
+Office 365 key features
+
+ 
+
+Unable to install office - Basic steps to be performed
+
+ 
+
+What do you understand by Modern HUP and what are the products available?
+
+ 
+
+How will you check whether the Key provided is GEO blocked and what tool you will use to confirm?
+
+ 
+
+Steps to perform clean boot and the command for it.
+
+ 
+
+What is POSA?Office key redemption, installation and activation process
+
+ 
+
+What are the ways to uninstall Office from Windows 10 computer?
+
+ 
+
+What is AFO/DFO and how do we handle
+
+ 
+
+Family
+
+Personal
+
+University
+
+Education
+
+Pro Plus
+
+A1, A3, A5, Student Advantage, Faculty Program
+
+$99.99
+
+$69.99
+
+$79.99
+
+Free
+
+6 Users = 1 User can share 5 users
+
+1 User
+
+1 User
+
+Each user can install on 5 devices
+
+5 Installation
+
+2 installations
+
+Total there are 30 installations
+
+no longer available
+
+Onedrive - 1TB each user
+
+Onedrive - 1TB
+
+Onedrive - 1TB
+
+60 mins Skype Calling per month
+
+60 mins Skype Calling per month
+
+60 mins Skype Calling per month
+
+OS Free installation
+
+OS Free installation
+
+OS Free installation
+
+Auto updates
+
+Auto updates
+
+Auto updates
+
+Auto upgrade
+
+Auto upgrade
+
+Auto upgrade
+
+Free Technical Support
+
+Free Technical Support
+
+Free Technical Support
+
+Subscription Sharing
+
+Outlook.com Premium
+
+Outlook.com Premium
+
+Teams
+
+Teams
+
+Family safety App
+
+Family safety App
+
+List of Question’s for Windows
+
+ 
+
+1.      Customer contacted us for Windows 10 Pro Activation after the replacement of Motherboard, List of probing question you should ask the customer
+2.       Customer contacted us post update unable to boot up the PC, Its redirecting the page to BSOD with error. List of trouble shooting you will try before performing Custom/Clean Installation
+
+3.       While performing Custom installation you are on the page you need to select the drive as where do you want install windows, but you are unable to see the drives, what will be next step you will do.
+
+4.       Post Windows update unable to launch MS Store and store apps
+
+5.       Services responsible for Windows updates
+
+6.       Customer wants to update Windows for the latest version, List of trouble shooting you will try
+
+7.       Post Windows update no sound on the device
+
+8.       How to perform Clean installation from the PC
+
+9.       What is minimum system requirements to upgrade the PC to Windows 11
+
+10.   How to perform Clean Boot
+
+11.   Commands used on CMD to uninstall the product and reinstall it
+
+12.   Command for Phone activation
+
+13.   After performing Custom installation where would be the older files will be saved
+
+14.   Command to open user account page & Command to open program & features page
+
+15.   Latest version of Windows 10/11
+
+16.   After performing In-Place do we need to reinstall other application?
+
+17.   An In-place upgrade in Windows 10 will support moving between 32 Bit and 64 Bit architecture?
+
+18.   How to create a new local user account?
+
+19.   Commands to perform Network reset
+
+How to enable hidden administrator?
+
+ 
+
+ 
+
+Command for Phone activation
+Run CMD -> SLUI 4
+
+ 
+
+Commands to perform Network reset?
+Start menu > Settings > Network and Internet > Advanced network settings > Network reset.
+
+How to enable hidden administrator?
+ Net user administrator /active: yes
+
+What are services responsible for Windows update -
+a. BITS
+
+b. Cryptographic
+
+c. Windows Update
+
+d.  Windows time
+
+ 
+
+What is Disk Defragmentation?
+It will re-arrange discontinuous data consecutively on sectors so that the hard drives can work more efficiently.
+
+What is the function of PC Health App?
+Windows Compatibility Tool.
+
+Different between window 10 Home & pro
+A picture containing graphical user interface
+
+Description automatically generated
+
+How to upgrade from “Edition to Edition” and “Version to Version”?
+
+
+How to Clear Troubleshooting History in Windows 10/11?
+Control Panel>All Control Panel Items>Troubleshooting>History>clear
+
+What is the service for windows activation?
+Software Protection
+
+ 
+
+CMD to reset the Microsoft store.
+CMD Run admin > Wsreset.exe
+
+ 
+
+What is the Command to run SFC scan?
+Sfc /scannow
+
+ 
+
+How to uninstall updates?
+Select the Start button, then select Settings  > Update & Security   > Windows Update  > View your update history > Uninstall updates. 
+View update history settings 
+
+ 
+
+How to reset your pc?
+Select the Start  button, then select Settings  > Update & Security   > Recovery . 
+Open Recovery settings 
+
+ 
+
+What is the command to uninstall a program?
+Appwiz.cpl
+
+ 
+
+Office 365 basic
+
+ 
+
+Activation
+
+ 
+
+HUP
+
+ 
+
+Check list for Office DIA
+
+ 
+
+Redemption
+
+> Sign in to MSA
+
+> mode of purchase
+
+> place of purchase
+
+> name of the product?( order confirmation / invoice / POSA Card )
+
+> Status of key provide Cx, has a POSA key
+
+> Key - created (refer back to the retailer)
+
+> Key - Active (help to redeem)
+
+> Key - Consumed?
+
+> office.com/setup or microsoft.com/redeem
+
+> redemption can be done on any device
+
+ 
+
+Download
+
+> Geniuine website / Store app
+
+> OS Version - Compatibility
+
+> Disc space
+
+> Stable Internet Connection
+
+> Type of Antivirus & Windows Defender Firewall
+
+> Browser compatibility
+
+> Windows 10 S - app permission
+
+ 
+
+ 
+
+Installation
+
+> Is it the first time installation?
+
+> Perpetual or Subscription
+
+> Is it the same computer/device?
+
+> OS compatibility
+
+   Office 2010,2013,2016,2019,O365 - Win 7(SP1), Win 8.1,  Win 10
+
+   O365,O2019 - Latest 3 MAC OS(High Seirra - 10.13, Mojava-10.14, catalina-10.15, Big Sur-11.0)
+
+   O2016 for MAC - 10.10,10.11,10.12
+
+> Reason for re-installation (updates removed office, change of device...)
+
+> Make cx, login to MSA/Validate the Pk
+
+> Multiple versions of office is installed(appwiz.cpl)
+
+> Check for Trial version
+
+> Internet connection
+
+> Disc Space
+
+> Antivirus & Firewall
+
+> check for Windows Updates - stopped
+
+> Windows Installer service - running
+
+> User Account - Admin
+
+> Domain
+
+ 
+
+ 
+
+Activation
+
+> Is it the first time activation?
+
+> Same device
+
+> Validate the product- perpetual license / Subscription status - O365
+
+> Check if cx, is using the right MSA
+
+> OS compatibility / OS - Activated
+
+> Browser compatibility
+
+> Trun off - Antivirus or firewall
+
+> Date & Time
+
+> Check for Trial version, or multiple versions installed
+
+> User Account - Admin
+
+> Domain
+
+ 
+
+Product Key - also know as software key - Activate MS Office product
+
+determines the license - idenitfy the version & edition, validity, status of key whether the key is active or blocked, how many activation are done?
+
+25characters alphanumeric - 5*5
+
+Do not have PK - M365,Office 2019 H&S - POSA Key & MSA
+
+Vowels - a,e,i,o,u,0,8 ( these character wont be available in PK )
+
+KIT Tool - Key Information Tool
+
+PK - Support - Retail, HUP ( Home Use Program ) - Consumer
+
+PK - Do not Support - Volume, VLAP, VLK, KMS, MAK, MSDN  - Commercial
+
+ 
+
+*****************************************************************
+
+ 
+
+POSA Key - Point of Sale Activation
+
+25characters alphanumeric - 5*5
+
+PIN at the back of the POSA card
+
+office.com/setup
+
+or
+
+microsoft.com/redeem
+
+This cannot be used for activation, but used to Redeem a product
+
+KIT Tool - Key Information Tool
+
+ 
+
+Redemption - Link the POSA Key with MSA, once the POSA Key is redemed it is not reusable
+
+1 POSA - 1 MSA
+
+Product Key cannot be used for redemption it is used only activation.
+
+ 
+
+Example
+
+M365 F, M365 P, H&S, H&B
+
+H&B
+
+POSA Key - H&B 2019
+
+POSA Key - redemption procedure - O2019 H&B get linked to MSA
+
+Cx,can login to MSA m find the Product Key which is for OH&B2019
+
+ 
+
+Mode of Purchase - Retailer or Store - 3rd party - POSA Key
+
+Mode of Purchase - Microsoft Online - order confirmation email - redemption link(Install)
+
+ 
+
+Troubleshooting redemption issue:-
+
+> POSA Key - Validity - 6months
+
+> POSA Key already used
+
+> Missing characters in POSA Key
+
+> Network issue / server issue
+
+> POSA Key - Status
+
+                Status - Created - Key cannnot be used for redemption - Key statuts not updated to the Microsoft server by the retailer.
+
+                                Active - Ready for redemption
+
+                                Consumed - Key is already used under a different MSA
+
+ 
+
+Products that support redemption - All the consumer - M365 F, M365 P,Office 2019 H&S,Office 2019 H&B
+
+                               
+
+ 
+
+ 
+
+Activate Office for Mac
+
+https://support.microsoft.com/en-us/office/activate-office-for-mac-7f6646b1-bb14-422a-9ad4-a53410fcefb2
+
+ 
+
+
+
+
+
+https://support.microsoft.com/en-us/office/what-to-try-if-you-can-t-install-or-activate-office-for-mac-5efba2b4-b1e6-4e5f-bf3c-6ab945d03dea
+Can't activate Office after installation.
+1.      Check to make sure your internet is working on the Mac you're trying to install on. You can do this by opening your internet browser and going to www.microsoft.com. If the page loads, your internet connection is working.
+
+2.      Reset your credentials:
+
+a.      Open Spotlight by selecting the magnifying glass at the top right of your desktop.
+
+b.      Search for and open Keychain.
+
+c.       Type in Office and then delete the data license file.
+
+d.      Download and run this script.
+
+"No license found" error / Can't activate Application.
+§  Are you using the correct Microsoft Account (MSA)? Sign out and sign in again with the account associated with your Microsoft 365 subscription. You may need to choose "Sign in with another account" to proceed.
+
+Tip: Try searching all of your email accounts for a confirmation email from Microsoft. This might help you find the email address that is your MSA.
+
+§  Are you trying to activate Outlook with an Office Home and Student 2016 license? The Office Home & Student license does not come with Outlook. If you would like to use Outlook, you can switch to a different Microsoft 365 home subscription. If you would like to keep the license you have, we recommend you drag the Outlook app to Trash to delete it.
+
+§  If you have a Microsoft 365 work or school account, your license may not have been set up by your system administrator. Contact your organization's tech support for more help.
+
+§  If you don't have a current subscription, you can sign up for a trial account
+
+Installation limit reached error when activating Office for Mac
+Installation limit reached
+
+Your account <email address> has been used to activate Office on the maximum number of computers allowed. Visit your account page to manage your settings and then return here to retry activation.
+
+Installation limit reached error message
+
+This error occurs when you've reached the maximum number of activations that Office allows. If you purchased Office 2016 for Mac as a single license, you only get a one-time install.
+
+ 
+ 
+ 
+ 
+ 
+Error 0x8A010101 when activating Office for Mac
+Office 2021 for Mac Office 2019 for Mac Office 2016 for Mac Microsoft 365 for home More...
+
+If you're trying to activate Office for Mac and receiving "Error Code: 0x8A010101," follow the steps below.
+
+Note: Are you receiving this error for Office for Mac 2011? See Troubleshoot activation errors for Office for Mac 2011 instead.
+
+Sign in with your Microsoft Account.
+§  Make sure you're using the correct Microsoft Account that is associated with your Office for Mac purchase.
+
+§  Double check to make sure you're activating Office 2016 or Office 2019 for Mac and not Office for Mac 2011.
+
+§  If you're accidentally trying to activate 2011 instead of Office 2016 or Office 2019 for Mac, uninstall Office for Mac 2011. Then download and install Office for Mac. You'll activate by signing in with your Microsoft account.
+
+Select Sign In to activate Office for Mac
+
+The sign in screen for Office for Mac should look something like this.
+
+Error code 0xD0001043.
+Have you seen this error?
+
+"An unknown error has occurred. The error code is 0xD0001043"
+
+This is a server issue that occurs when trying to activate Microsoft 365 for Mac. Try restarting your Mac and activate again. If you're still seeing this error, try this:
+
+1.      Run the Office for Mac License Removal Tool
+
+2.      Uninstall Office for Mac and then re-install Office from Office.com/signin.
+
+3.      Activate again.
+
+ 
+
+Error code 0xD000001c.
+If you're trying to activate Office for Mac and have received error code 0xD000001c, this is because your Mac's name contains invalid characters when being sent to our server. To fix this issue, update your Mac's name to remove the invalid characters:
+
+1.      In the top menu bar, select the Apple icon > System Preferences > Sharing (third row.)
+
+2.      In the Computer Name text box, update your Mac's name and then close the window.
+
+3.      Restart your Mac and then activate Office.
+
+"You need to activate Office for Mac within X days" after activating already.
+Microsoft is aware of and currently working on this issue.
+
+If you've activated Office for Mac 2016 but are still seeing a message that says "You need to activate Office for Mac within X days," please try these steps to resolve your issue:
+
+1.      Run the License Removal Tool
+
+2.      In Spotlight Search (the magnifying glass) on your Mac, search for and open Keychain Access.
+
+3.      In Keychain Access, delete the following files:
+
+Note: You will need local admin privileges to make changes to your Keychain Access.
+
+§  Microsoft Office Identities Cache 3
+
+§  Microsoft Office Identities Settings 3
+
+§  Microsoft Office Ticket Cache
+
+4.      Restart your Mac and open any Microsoft Office app to reactivate.
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+Activated but still prompted to activate.
+You've activated but you're still being asked to activate, or you keep seeing messages for "Activate Office to Create and Edit" when you've already activated:
+
+1.      Quit the app. For example, if you're using Word, you'll go to the upper left corner of your screen and click Word > Quit Word.
+
+2.      Restart any Office app and the message should be gone.
+
+3.      If this is a constant issue, reset your credentials:
+
+§  Open Spotlight by selecting the magnifying glass at the top right of your desktop.
+
+§  Search for and open Keychain.
+
+§  Type in Office and then delete the data license file.
+
+§  Run the license removal tool
+
+Installer.pkg file downloaded but won't launch.
+§  Wait for the download to be complete. It may take a while, and may start and stop. The final file size should be around 1.5 gb.
+
+§  Move the Microsoft Office installer .pkg file from the Downloads folder to the desktop, and then double-click to launch.
+
+§  If it's still not working, delete the installer.pkg file and empty the Trash. Now, redownload using the Safari browser at Office.com/signin.
+
+Error message "Install Failed" when trying to install.
+§  The download is corrupted. Drag the installer file to Trash to delete it. Empty the Trash.
+
+§  Start the download again in Safari by going to Office.com/signin.
+
+macOS
+
+Latest version
+
+macOS Monterey
+
+12.5.1
+
+macOS Big Sur
+
+11.6.8
+
+macOS Catalina
+
+10.15.7
+
+macOS Mojave
+
+10.14.6
+
+macOS High Sierra
+
+10.13.6
+
+macOS Sierra
+
+10.12.6
+
+OS X El Capitan
+
+10.11.6
+
+OS X Yosemite
+
+10.10.5
+
+OS X Mavericks
+
+10.9.5
+
+OS X Mountain Lion
+
+10.8.5
+
+OS X Lion
+
+10.7.5
+
+Mac OS X Snow Leopard
+
+10.6.8
+
+Mac OS X Leopard
+
+10.5.8
+
+Mac OS X Tiger
+
+10.4.11
+
+Mac OS X Panther
+
+10.3.9
+
+Mac OS X Jaguar
+
+10.2.8
+
+Mac OS X Puma
+
+10.1.5
+
+Mac OS X Cheetah
+
+10.0.4
+
+Install Office On Mac
+1.      Once the download has completed, open Finder, go to Downloads, and double-click Microsoft Office installer.pkg file (the name might vary slightly).
+
+
+
+Tip: If you see an error that says the Microsoft Office installer.pkg can't be opened because it is from an unidentified developer, wait 10 seconds and move the downloaded file to your desktop. Hold Control + click the file to launch the installer.
+
+2.      On the first installation screen, select Continue to begin the installation process.
+
+First Mac 2016 installation screen with "Continue" highlighted
+
+3.      Review the software license agreement, and then click Continue.
+
+4.      Select Agree to agree to the terms of the software license agreement.
+
+5.      Choose how you want to install Office and click Continue.
+
+6.      Review the disk space requirements or change your install location, and then click Install.
+
+Note: If you want to only install specific Office apps and not the entire suite, click the Customize button and uncheck the programs you don't want.
+
+7.      Enter your Mac login password, if prompted, and then click Install Software. (This is the password that you use to log in to your Mac.)
+
+Enter your admin password to begin installing
+
+8.      The software begins to install. Click Close when the installation is finished. If Office installation fails, see What to try if you can't install or activate Office for Mac.
+
+Shows the final page of the installation process, indicating that the installation was successful.
+
+ 
+
+Share your Microsoft 365 Family subscription
+
+ 
+
+Activate Office (microsoft.com)
+
+ 
+
+ 
+
+1.What are benefits of Microsoft 365 Family license? Minimum 5
+
+ 
+
+2.What is the weblink to install Microsoft Office license?
+
+office.com/verify
+
+microsoft.com/redeem
+
+office.com/myaccount
+
+ 
+
+3.What are the applications available with Microsoft Home & Business 2016?
+
+Word, Excel, Powerpoint, OneNote, Outlook - Correct
+
+Word, Excel, Powerpoint, Outlook
+
+Word, Excel, Powerpoint, OneNote, Outlook, Access, Publisher
+
+ 
+
+4.Workplace Discount Program (or HUP) is avail to all the customers?
+
+True
+
+False - Correct
+
+ 
+
+5.Write 5 troubleshooting steps that you would try if the installation gets stuck at 58%.
+
+ 
+
+6.Can customer can avail for HUP discounts even after leaving the organization?
+
+Yes, they should have access to work email address
+
+No
+
+Yes, only if the product is renewed before expiry date - Correct
+
+Yes, for 30 days
+
+ 
+
+7.What are the different types of products keys?
+
+ 
+
+8.How can we share the subscrition? Mention in Detail the steps.
+
+ 
+
+9.Select the correct type of uninstallation?
+
+SARA, Manual RIP, Licence removal tool
+
+Control panel, Apps & Features (MS store), SARA, Manual RIP
+
+Apps(MS store),Manual RIP, Revo tool, Fix it Tool
+
+ 
+
+10.How to run C:script and command lines of C:script?
+
+ 
+
+11.Which is the link to check for the eligibility of HUP license
+
+microsoft.com/homeuseprogram
+
+microsoft.com/home_use_program
+
+microsoft.com/home-use-program - Correct
+
+support.microsoft.com/home_use_program
+
+ 
+
+12.What are System requirements for Windows for 365 and for MAC? (Minimum 4 each)
+
+ 
+
+13.What are the three options we get to install office from install page?
+
+Offline Install, Online install
+
+32 BIT, 64 BIT, Offline Install
+
+64 BIT, Using setup file, Direct Install
+
+ 
+
+14.What is the checklist for Redemption ?
+
+ 
+
+15.What is the timeline to provide a refund for a product purchased from Microsoft Store
+
+35 days
+
+30 days
+
+ 
+
+16.What happens if we turn off the Auto renewal option?
+
+This keeps the current subscription active but disables future recurring purchases
+
+The current subscription will also be cancelled, and the refund will be processed for the same.
+
+ 
+
+17.Customer purchased O365 today from Microsoft store on wrong MSA, he wanted to change the MSA?
+
+Inform the customer that change of MSA is not possible.
+
+Transfer to A&B , they can cancel the product and help the customer in purchasing with the right MSA .
+
+ 
+
+18.What are the version and edition of Office?
+
+ 
+
+ 
+
+19.Install and set up Office on Mobile? Select correct
+
+Play Store and install apps individually
+
+Microsoft Store and install product
+
+Play store, Microsoft store, install apps individually
+
+ 
+
+
+
+This paste expires in <30 days. Public IP access. Share whatever you see with others in seconds with Context.Terms of ServiceReport this

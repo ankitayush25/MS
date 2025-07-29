@@ -1,0 +1,208 @@
+If we buy our office in a store 
+redemption: It is a key linking your email with the key itself. (once done can't unlink)
+After purhasing we must redeem the key
+
+for redeeming the key in 3 ways:
+1) Create
+2) Activate
+3) consume
+
+setup.office.com/redeem> Sign in with MSA> create it> key > verify language/country/(cannot change MSA after redeemed)> accounts.microsoft .com to install(redemption can be done on any platform ie pc or MAC or PHONE). 25 alphanumeric key
+
+2 methods of installing an office application
+
+1) in accounts.microsoft.com go for subscriptions in that scroll down and install. (Click to run option). (Directly installing).
+2) Microsoft store
+3) C2R (CUSTOMER TO RETAIL or CLICK TO RUN): Retail store (we have to redeem the key) {setup.office.com/redeem or office.com/setup or reedeem.microsoft.com > Sign in with MSA> create it> key > verify language/country/(cannot change MSA after redeemed)> accounts.microsoft .com to install(redemption can be done on any platform ie pc or MAC or PHONE). 25 alphanumeric key}
+
+
+FOR A NON POSA KEY (RETAIL KEY) : setup.office.com> sign in> enter the key> download the software> use the product key to activate.
+
+
+***********************************************************************************************************************************************
+
+***********************************************************************************************************************************************
+Scenario: if the customer is not able to download Microsoft or any office or other application.
+
+1) has he tried downloading form another browser
+2) Storage space.
+3) Whether the email is in subscription or not
+4) error code.
+5) how are you trying to install office.
+6) do you previously have other office version. (If yes then we have to remove the old office version and restart the pc). {{to uninstall office, we can use 
+1) Saracmd- Microsoft support and recovery assistant. (it's a tool)
+2) CONTROL PANEL CLICK THE APP AND UNINSTALL}}
+7) what is the OS?
+8) 
+
+probing questions for redeepmtion:
+1) name of the product
+2) error message
+3) anti-virus
+4) VPN connections matters (Geolock-region specific)
+
+for this case we can use offline installer.  in accounts.microsoft.com go for subscriptions in that scroll down and install. (Click to run option). (Directly installing).
+near this we have a small arrow. that is offline installer.
+***********************************************************************************************************************************************
+
+To activate we can
+1) Go to word and login into your account which has the subscription and go to account there it will be shown.
+***********************************************************************************************************************************************
+IF ITS A FAMILY SUBSCRIPTION:
+1) we have to share the subscription.
+2) In accounts.microsoft.com we have to go for subsctiption or share 
+3) we have to enter the family emails, and they will get the accept prompt.
+
+***********************************************************************************************************************************************
+Installing office:
+ buy a subscription > go to MSA > shows subscriptions
+1) Offline package downloads and we can install anythime (this will take time to install)
+2) click to run 2-3 mb gets downloaded and starts installing and we can use immediately licence, mail id.
+
+we have to uninstall trail version of MS office if we took subscription and after agian install office so we can login and we won't get error message.
+
+
+*************************************************************************************************************************************************
+
+WHAT IS PRODUCT KEY?
+ It is known as the software key used to activate ms office product.
+
+it determines the license - identify the version and edition, validity, status of key whether the key is active or blocked, how many activation are done?
+25-digit alpha numeric key activation key ((no A, E, I, O, U, 0 ,8 in office).
+
+product key supports: retail, HUP ( home use program) - consumer
+do not support- volume, vlap, vlk, kms, mak, msdn - they are use for business purpose only hence they wont support.
+
+
+{MSDN KEYS ARE GIVE FROM MICROSOFT, WE WILL GET FULL ACCESS (ONLY DISADVANTAGE IT IS USED FOR DEVELOPER KEY THAT IS INSIDER PREVIEW, IF WE USE IT, IT WILL HAVE BUGS.)}
+
+POSA KEY- point of sale activation
+{all posa keys end with {{z}}}
+25 characters alphanaumrer - 5*5
+PIN at the back of the POSA card
+office.com/setup
+{setup.office.com/redeem or office.com/setup or reedeem.microsoft.com > Sign in with MSA> create it> key > verify language/country/(cannot change MSA after redeemed)> accounts.microsoft .com to install(redemption can be done on any platform ie pc or MAC or PHONE). 25 alphanumeric key}
+or 
+
+microsoft.com/redeem
+{setup.office.com/redeem or office.com/setup or reedeem.microsoft.com > Sign in with MSA> create it> key > verify language/country/(cannot change MSA after redeemed)> accounts.microsoft .com to install(redemption can be done on any platform ie pc or MAC or PHONE). 25 alphanumeric key}
+This cannot be used for activation, but used to redeem the product
+KIT tool- key information tool. (THIS IS NOT USED N0W)
+1POSA - 1MSA
+
+Validity of POSA key is 6 months
+PRODUCT KEY CANNOT BE USED FOR REDEMPTION.
+************************************************************************************************************************************************
+
+to uninstall office, we can use 
+1) Saracmd- Microsoft support and recovery assistant. (it's a tool)
+2) CONTROL PANEL CLICK THE APP AND UNINSTALL.
+3) REMOVE OFFICE MANUALLY.
+
+************************************************************************************************************************************************
+
+Mode of purchase - retailer or store - 3rd party - POSA KEY.
+Mode of purchase - Microsoft online - order - order confirmation email - redeemption link (Install)
+
+************************************************************************************************************************************************
+
+TROUBLINGSHOOTING REDEMPTION ISSUE :-
+POSA KEY - VALIDITY - 6 MONTHS
+POSA KEY ALREADY USED
+MISSING CHARACTERS IN POSA KEY
+NETWORK ISSUE / SEVER ISSUE
+POSA KEY - STATUS 
+
+STATUS - CREATED - KEY CANNOT BE USED FOR REDEMPTION - KEY STATUS NOT UPDATED TO THE MICROSOFT
+SERVER BY THE RETAILER.
+ACTIVE - READY FOR REDEMPTION
+CONSUMED - KEY IS ALREADY USED UNDER A DIFFERENT MSA
+PRODUCTS THAT USUPPORT REDEMPTION - ALL THE CONSUMER - M365 F, M365 P, OFFICE 2019 H&S, OFFICE 2019 H&S
+
+*******************************************************************************************************************************************************************
+
+CHECK LIST FOR DIA (DOWNLOAD INSTALL ACTIVATION):
+
+BASIC QUESTION:
+
+SIGN IN TO MSA
+MODE OF PURCHASE
+NAME OF THE PRODUCT? (ORDER CONFIRMATION / INVOICE / POSA CARD)
+STATUS OF KEY PROVIDE CX, HAS A POSA KEY
+KEY - CREATED (REFER BACK TO THE RETAILER) 
+KEY - ACTIVE (HELP TO REDEEM)
+KEY - CONSUMED?
+VALIDITY BELOW 6 MONTHS.
+OFFICE.COM/SETUP OR MICROSOFT.COME/REDEEM
+REDEMPTION CAN BE COND ON ANY DEVICE.
+DOWNLOAD:
+Scenario: why is my system still asking for activation.
+GENIUNINE WEBSITE / STORE APP
+AT WHAT POINT IS HE GETTING STUCK / ERROR MESSAGE.
+OS VERSION - COMPATIBILITY
+DISC SPACE
+STABE INTERNET CONNECTION 
+TYPE OF ANTIVIRUS & WINDOWS DEFENDER FIREWALL (FIREWALL IT ONLY CHECKS FOR CONNECTIONS/ DATA FLOW), (ANTIVIRUS CHECKS FOR ALL THE DATA IN THE SYSTEM)
+BROWSER COMPATIBILITY
+WINDOWS 10 S - APP PERMISSION (ASK IT AS A FIRST QUESTION)
+
+INSTALLATION:
+
+IS IT THE FIREST TIME INSTALLATION?
+PERPETUAL OR SUBSCRIPTION ?
+IS IT THE SAM ECOMPUTER/ DEVICE?
+OS COMPATIBILITY (OFFICE MUST BE COMPATIBLE WITH YOUR VERSIONS OF WINDOWS {EG., OFFICE 2021 REQUIRES WINDOWS 10 OR LATER}).
+  OFFICE 2010, 2013, 2016, 2019, O365 - WIN 7 (SP1), WIN 8.1 WIN 10
+  O365, O2019 - LATEST 3 MAC OS(HIGH SEIRRA - 10.13, MOJAVA-10,
+REASON FOR RE-INSTALLATION (UPDATES REMOVED OFFICE, CHANGE OF DEVICE....)
+MAKE CX, LOGIN TO MSA/VALIDATE THE PK
+MULTIPLE VERSIONS OF OFFICE IS INSTALLED (APPWIZ.CPL).
+CHECK FOR TRAIL VERSION
+INTERNET CONNECTION (USE A STABLE WIFI/LAN CONNECTION; DISSCONNECT UNUSED DEVICES TO ENUSRE BETTER SPEED)
+DISC SPACE
+ANTIVIRUS AND FIREWALL
+CHECK FOR WINDOWS UPDATES - STOPPED
+WINDOWS INSTALLER SERVICE - RUNNING
+USER ACCOUNT - ADMIN (ENABLE HIDDEN ADMIN)
+DOMAIN
+
+IF THE INSTALLATION IS STUCK AT 90% WE HAVE TO GO TO THE TASK MANAGER AND GIVE IT HIGH PRIORITY.
+check if office apps are opening from run (eg: winword)
+if apps open, reboot the system. let setup complete post-restart.
+IF THE INSTALLATION IS STUCK AT 50% WE HAVE TO GO TO THE TASK MANAGER AND END TASK.
+same as 0% plus: use sara tool to remove partially installed office
+reboot and reinstall
+IF STUCK AT O%
+Re-download office or use offline installer.
+open taks manager> details tab. 
+stop services using services.msc: cryptographic, print spooler, windows update (these two services are windows update services hence they might cause clashes.)
+restart windows installer service.
+pause windows updates and firewall temporarily.
+end all office/setup processes and retry installation.
+
+OFFICE ACTIVATION IN MAC:
+
+REMOVE OLD LICENSE USING MICROSOFT LICENSE REMOVAL TOOL.
+UPDATE OFFICE FROM HELP > CHECK FOR UPDATES.
+CHANGE DNS IN NETWORK SETTINGS TO 8.8.8.8.
+ENSURE CORRECT DATE, TIME, LANGUAGE.
+AVOIDE SPECIAL CHARACTERS IN COMPUTER/USER/HDD NAMES.
+UNINSTALL AND REINSTALL OFFICE IF ACTIVATION FAILS.
+
+
+SCENARIO: THE CUSTOMER SAYS HE HAS PROBLEMS WITH OFFICE APPLICATON
+quick repair and online repair: 
+
+
+
+***************************************************************************************************************************************************
+WINDOWS ACTIVATION TROUBLESHOOTING CHEKCLIST.
+
+Check windows edition is correct and not mismatched (eg, home key on pro edition).
+ensure internet is active during activation.
+run activation troubleshooter: settings>activation>troubleshoot.
+verify product key using slmgr/div and slmgr/xpr in cmd
+try reactivating with: slmgr/ipk <your product key> and slmgr/ato
+use ms account if linked to a digital license
+if device was reset or hardware changed, use 'i changde hardware' option in activation settings.
+This paste expires in <1 day. Public IP access. Share whatever you see with others in seconds with Context.Terms of ServiceReport this

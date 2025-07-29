@@ -1,0 +1,222 @@
+MICROSOFT OFFICE:
+
+If we buy our office in a store 
+redemption: It is a key linking your email with the key itself. (once done can't unlink)
+After purhasing we must redeem the key
+
+for redeeming the key in 3 ways:
+1) Create
+2) Activate
+3) consume
+
+setup.office.com/redeem> Sign in with MSA> create it> key > verify language/country/(cannot change MSA after redeemed)> accounts.microsoft .com to install(redemption can be done on any platform ie pc or MAC or PHONE). 25 alphanumeric key
+
+2 methods of installing an office application
+
+1) in accounts.microsoft.com go for subscriptions in that scroll down and install. (Click to run option). (Directly installing).
+2) Microsoft store
+3) C2R (CUSTOMER TO RETAIL or CLICK TO RUN): Retail store (we have to redeem the key) {setup.office.com/redeem or office.com/setup or reedeem.microsoft.com > Sign in with MSA> create it> key > verify language/country/(cannot change MSA after redeemed)> accounts.microsoft .com to install(redemption can be done on any platform ie pc or MAC or PHONE). 25 alphanumeric key}
+
+
+***********************************************************************************************************************************************
+
+***********************************************************************************************************************************************
+Scenario: if the customer is not able to download Microsoft or any office or other application.
+
+1) has he tried downloading form another browser
+2) Storage space.
+3) Whether the email is in subscription or not
+4) error code.
+5) how are you trying to install office.
+6) do you previously have other office version. (If yes then we have to remove the old office version and restart the pc).
+
+for this case we can use offline installer.  in accounts.microsoft.com go for subscriptions in that scroll down and install. (Click to run option). (Directly installing).
+near this we have a small arrow. that is offline installer.
+***********************************************************************************************************************************************
+
+To activate we can
+1) Go to word and login into your account which has the subscription and go to account there it will be shown.
+***********************************************************************************************************************************************
+IF ITS A FAMILY SUBSCRIPTION:
+1) we have to share the subscription.
+2) In accounts.microsoft.com we have to go for subsctiption or share 
+3) we have to enter the family emails, and they will get the accept prompt.
+
+***********************************************************************************************************************************************
+Installing office:
+ buy a subscription > go to MSA > shows subscriptions
+1) Offline package downloads and we can install anythime (this will take time to install)
+2) click to run 2-3 mb gets downloaded and starts installing and we can use immediately licence, mail id.
+
+we have to uninstall trail version of MS office if we took subscription and after agian install office so we can login and we won't get error message.
+
+
+*************************************************************************************************************************************************
+
+WHAT IS PRODUCT KEY?
+ It is known as the software key used to activate ms office product.
+
+it determines the license - identify the version and edition, validity, status of key whether the key is active or blocked, how many activation are done?
+25 digit activation key ((no A,E,I,O,U, 0 , B in office).
+
+product key supports: retail, HUP ( home use program) - consumer
+do not support- volume, vlap, vlk, kms, mak, msdn - they are use for business purpose only hence they wont support.
+
+
+{MSDN KEYS ARE GIVE FROM MICROSOFT, WE WILL GET FULL ACCESS (ONLY DISADVANTAGE IT IS USED FOR DEVELOPER KEY THAT IS INSIDER PREVIEW, IF WE USE IT, IT WILL HAVE BUGS.)}
+
+POSA KEY- point of sale activation
+25 characters alphanaumrer - 5*5
+PIN at the back of the POSA card
+office.com/setup
+
+or 
+
+microsoft.com/redeem
+This cannot be used for activation, but used to redeem the product
+KIT tool- key information tool.
+1POSA - 1MSA
+PRODUCT KEY CANNOT BE USED FOR REDEMPTION.
+************************************************************************************************************************************************
+
+to uninstall office, we can use 
+1) Saracmd- Microsoft support and recovery assistant. (it's a tool)
+
+FULL SHORT REVISION:
+
+
+ZTP:
+No PII
+No password sharing
+No product key and password
+no survey avoidance
+no taking card details
+Not using tools for our benefits
+Not abusing customer / coworker
+
+CHAT FLOW:
+branding
+opening
+paraphrasing
+providing assurance
+summarize
+survey spill
+closing spill
+
+ABS FORMAT
+A- Action/activity (ISSUE)
+B- Blocking
+S- Support (Probe, PII, troubleshoot, Advise me, EOC)
+
+HOW TO RECOVER A CUSTOMER?
+listen to the customer
+know why customer is unhappy
+apologize to the customer
+assure the customer
+give resolution if possible
+If not education on why we cannot help resolving the issue.
+THINGS TO BE DONE BEFORE POST ESCULATING:
+
+Ask for time zone and mobile number
+time frame slot
+ABS should be filled
+send an e-mail to T2 distro and SME and T2.
+
+HOW MANY TYPES OF WINDOWS INSTALLATIONS ARE THERE AND DIFFERENTIATE THEM?
+
+Installations IS THE PROCESS OF MAKING HARDWARE AND / OR SOFTWARE there are three types of windows installation.
+
+Upgrade installation:
+Custom Installation:
+Clean Installation:
+
+SERVICES FOR WINDWS UPDATES:
+
+BITS
+Windows update
+Cryptographic services
+Print spooler
+Windows installer
+
+SYSTEM REQUIREMENTS FOR WIN11 AND HOW TO UPGRADE FROM WIN10:
+
+Windows 11 specs and system requirements | Microsoft. (this is a link)
+
+US TIME ZONES EST,CST,MST,PST,
+
+
+
+
+
+SCENARIO: EVEN AFTER THE CUSTOMER IS IN WIN 11 BUT DURING REPAIR INSTALLATION IF IT SAYS WIN 11 WONT BE COMPATIBLE FOR WINDOWS 11.
+
+ANSWER: WE CAN CHECK IN PC HEALTH CHECK APP, 
+AND THERE IS A CHANCE THE PREVIOUSLY THE CUSTOMER MIGHT HAVE BYPASSED THE COMPABALITY AND INSTALLED THE WIN 11 UPDATES.|
+
+
+ACCOUNTS AND BILLING SUPPORT SCENARIOS
+
+1) Accounts and billing portal:  "Hi, I have a question about a charge. Can you help me?
+2) Accounts and billing: Resource finder: "Hello. I got a faulty device. What should I do to return it?
+3) Accounts and billing portal: " Hello. Saraha, I need help resetting the password for my MS account.
+4) Accounts and billing: Resource finder: " HI, I need to recover my MS account. Could you please helpme with that?"
+5) Accounts and billing: Resource finder: " Hi, I would like to share my office subscriptions. Where can I read more about that on your website?
+6) Advocate Communications Center: " Customer calls mentioning an issue that you are not aware of and can't find info on using the ohter tools and resources."
+7) Accounts and billing; Microsoft Support: " HI, where can I check more info online on how to protect my MS account?.
+8) Accounts and billing; Microsoft Support: " Hi, where can I check more info online on how to chang3e the payment method linked to my MS account?"
+9) Microsoft store promotions site: " HI, I am living in France, and I would like to buy a product. What promotions do you have available for me?
+10) Microsoft helps: " Hi, could you point me towards a tutorial I can wathc to figure out how to rest the password for Xbox?"
+11) Accounts and billing; Microsoft Support: " HI, I would like to change my subscription payment method. Where can I read more about that on your website?.
+
+WINDOWS UPDATE TROUBLESHOOTING AND CHATFLOW:
+
+Chat flow:
+Opening Speil.
+Empathize + Assurance.
+Ownership.
+Paraphrasing.
+Probing.
+Troubleshooting (Education, Raport).
+Fixing + Summarizing.
+Feedback.
+Thanking.
+Ending.
+
+
+
+Probing:
+
+1) Which OS version are you currently using? ( which version or edition )
+2) Is your internt connection stable? ( Dont begin with this quesiton )
+3) Does you system have storage space? ( Dont begin with this question )
+4) When was the recent update you have done on your system? ( next since when are you facing this issue )
+5) Have you tried any troubleshooting methods for fixing the issue?
+6) What is the error code which is displayed when you try to update your Windows?
+7) Are there any external devices connected to your device?
+8) Are there any third-party security softwares enabled?
+9) RECENT HARDWARE OR SOFTWARE INSTALLATIONS.
+
+
+Top 5 probing questions:
+
+1) Windows 10/11 ( which version or edition )
+2) which update (area) + error.
+3) When was the last time windows is updated.
+4) Since when the customer is facing the issue.
+5) Anti viruses.
+
+
+Troubleshooting:
+
+1) Windows Troubleshooter.
+2) With the help of the customer, clear the unnessary files.
+3) Disable any third-party security in the system.
+4) Do Clean boot
+5) Check if the 6 Microsoft services are running
+6) Chkdsk
+7) Rename the "windows distribution" folder or "Cat root" folder.
+8) SFC/SCANNOW and DSIM.
+9) Create a new user local account as admin (hidden admin).
+10) Try doing a Repair installation or In place upgrade.
+11)ESCALATE
+This paste expires in <30 days. Public IP access. Share whatever you see with others in seconds with Context.Terms of ServiceReport this

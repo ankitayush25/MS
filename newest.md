@@ -331,9 +331,8 @@
 
 ## 🌐 Useful Links
 
-- [Activate Office for Mac](https://support.microsoft.com/en-us/office/activate-office-for-mac-7f6646b1-bb14-422a-9ad4-a53410fcefb2)
-- [Troubleshoot Mac Install Issues](https://support.microsoft.com/en-us/office/what-to-try-if-you-can-t-install-or-activate-office-for-mac-5efba2b4-b1e6-4e5f-bf3c-6ab945d03dea)
-
+- [Activate Office for Mac](https://support.microsoft.com))
+- [Troubleshoot Mac Install Issues](https://support.microsoft.com/en-us/office/what-to-try-if-you-can-t-install-or-activate-office-for-mac)
 ---
 
 ## 📖 Common Interview Questions & Scenarios

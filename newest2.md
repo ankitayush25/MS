@@ -1,4 +1,3 @@
-# Microsoft Office & Windows Technical Support Checklist and Notes
 
 ## ✅ Installation Errors Checklist
 

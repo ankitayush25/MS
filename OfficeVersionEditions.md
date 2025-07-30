@@ -13,7 +13,7 @@
 - **Home & Student**: Word, Excel, PowerPoint, OneNote (non-commercial use).
 - **Home & Business**: Adds Outlook; licensed for commercial use.
 - **Professional**: Adds Publisher & Access; for power users/businesses.
-- **Professional Plus**: Enterprise-grade tools; typically via volume licensing.
+- **Professional Plus**:  Enterprise-grade tools (add teams); typically via volume licensing.Very expensive 200$. (not available within microsoft . Buy from 3rd party.
 
 ## Versions
 ### 📅 Office 2024 (incl. LTSC)

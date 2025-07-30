@@ -15,6 +15,7 @@
 - **Professional**: Adds Publisher & Access; for power users/businesses.
 - **Professional Plus**: Enterprise-grade tools; typically via volume licensing.
 
+## Versions
 ### 📅 Office 2024 (incl. LTSC)
 - **Home & Student 2024**: Word, Excel, PowerPoint, OneNote
 - **Home & Business 2024**: Adds Outlook
